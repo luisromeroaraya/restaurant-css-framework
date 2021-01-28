@@ -36,8 +36,8 @@ A page with a contact form containing the firstname, lastname, email, subject of
 
 *This is my first sketch:*
 
-![mockup](https://https://github.com/luisromeroaraya/restaurant-css-framework/blob/main/mockup.jpg)
-(The .psd file is [here]((https://https://github.com/luisromeroaraya/restaurant-css-framework/blob/main/mockup.psd) )
+![mockup](Mockup.jpg)
+(The .psd file is [here](Mockup.psd)
 
 
 If you want to make an even more complex website feel free to try new things and make it as beautiful as possible.
