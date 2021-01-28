@@ -37,7 +37,7 @@ A page with a contact form containing the firstname, lastname, email, subject of
 *This is my first sketch:*
 
 ![mockup](Mockup.jpg)
-(The .psd file is [here](Mockup.psd)
+(The .psd file is [here](Mockup.psd))
 
 
 If you want to make an even more complex website feel free to try new things and make it as beautiful as possible.
