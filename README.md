@@ -60,3 +60,7 @@ If you want to make an even more complex website feel free to try new things and
 ## Resources
 * [README](https://tinyurl.com/y2nlxere)
 * [glyphicons](http://glyphicons.com/)
+
+## Credits
+* All the images are royalty free and downloaded from [Shutterstock](https://www.shutterstock.com)
+* Flags are in the [public domain](https://en.wikipedia.org/wiki/Public_domain) and downloaded from [Wikipedia](https://www.wikipedia.org)
