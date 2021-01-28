@@ -15,6 +15,8 @@ At the end of this challenge you should have improved your:
 ## The mission
 Create a repository called *restaurant-css-framework* in which you must realise a window web page for a restaurant. The franchise is fictive, but the type of food (burger, pizza, asian, …) is your choice.
 
+*(I will try to make a South American Empanada Restaurant)*
+
 The website must be responsive, at least for small and medium screens. It must at least have five accessible pages: welcome, menu, pictures, restaurants and contact.
 
 Welcome\
@@ -31,6 +33,12 @@ A page about the restaurants (it’s a franchise) with its addresses, a map, and
 
 Contact\
 A page with a contact form containing the firstname, lastname, email, subject of the message (a drop-down list with multiple options), an area for the message itself and a send button with an icon. Each entry as a title in a semantically correct tag.
+
+*This is my first sketch:*
+
+!(https://luisromeroaraya.github.io/restaurant-css-framework/mockup.jpg)
+(The .psd file is [here](https://luisromeroaraya.github.io/restaurant-css-framework/mockup.psd) )
+
 
 If you want to make an even more complex website feel free to try new things and make it as beautiful as possible.
 
