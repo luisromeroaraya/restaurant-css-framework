@@ -67,5 +67,6 @@ If you want to make an even more complex website feel free to try new things and
 * [glyphicons](http://glyphicons.com/)
 
 ## Languages used
-* HTML (Visual Studio Code, Bootstrap)
 * Terminal (Github)
+* HTML5
+* CSS3
