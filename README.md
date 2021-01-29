@@ -6,6 +6,8 @@ Link to [my restaurant](https://luisromeroaraya.github.io/restaurant-css-framewo
 * All the images are royalty free and downloaded from [Shutterstock](https://www.shutterstock.com)
 * Flags and continent image are in the [public domain](https://en.wikipedia.org/wiki/Public_domain) and downloaded from [Wikipedia](https://www.wikipedia.org)
 
+* Pictures from the train stations are taken from [Wikipedia](https://www.wikipedia.org) and copyrighted via the "img copyright" tag. They are under the Creative Commons BY-SA licences [2.0](https://creativecommons.org/licenses/by-sa/2.0/), [3.0](https://creativecommons.org/licenses/by-sa/3.0/) and [4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
 <hr>
 
 # Restaurant [Challenge](https://github.com/becodeorg/BXL-Swartz-4-27/blob/master/1.The-Field/6.Bootstrap/restaurant.adoc)
