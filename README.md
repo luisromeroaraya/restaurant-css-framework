@@ -44,8 +44,8 @@ Contact\
 
 *This is my first sketch:*
 
-![mockup](Mockup.jpg)
-(The .psd file is [here](Mockup.psd))
+![mockup](mockup/Mockup.jpg)
+(The .psd file is [here](mockup/Mockup.psd))
 
 If you want to make an even more complex website feel free to try new things and make it as beautiful as possible.
 
