@@ -38,7 +38,7 @@
 
         <main class="mask"> 
             <section id=jumbotron>
-                <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselBanner" class="carousel slide carousel-fade shadow" data-bs-ride="carousel">
                     <!--INDICATORS-->
                     <ul class="carousel-indicators">
                         <li data-bs-target="#carouselBanner" data-bs-slide-to="0"></li>
@@ -103,18 +103,50 @@
             </section>
 
             <section class="container" id=middle>
-                <div class="row text-dark">
-                    <aside class="col-12 col-md-3 order-2 order-md-1 p-2" id=news>
-                        <h2 class="text-center">News</h2>
-                    </aside>
-                    <article class="col-12 col-md order-1 order-md-2 p-2" id=aboutus>
-                        <div class="row">
-                            <h2 class="text-center">Contact</h2>
-                        </div>
+                <article class="row text-dark p-2 d-flex justify-content-around" id="reservation">
+                    <h2 class="text-center">Reservation</h2>
+                    <article class="col-12 col-md-5 mb-3">
+                        <h4>Book a table:</h4>
+                        <form>
+                            <select class="form-select mb-2" aria-label="Choose Restaurant" required>
+                                <option selected disabled>Choose your restaurant:</option>
+                                <option value="1">Brussels</option>
+                                <option value="2">Antwerp</option>
+                                <option value="3">Liège</option>
+                            </select>
+                            <div class="mb-1">
+                                <input class="form-control" type="date" placeholder="Date" id="date" min="2021-03-01" required>
+                            </div>
+                            <div class="mb-1">
+                                <input class="form-control" type="time" placeholder="Time" id="time" min="11:00" max="22:30" required>
+                            </div>
+                            <div class="mb-1">
+                                <input class="form-control" type="text" placeholder="Name e.g: John" id="name" required>
+                            </div>
+                            <div class="mb-1">
+                                <input class="form-control" type="email" placeholder="Email e.g: johndoe@mail.com" id="email" required>
+                            </div>
+                            <div class="mb-1">
+                                <input class="form-control" type="tel" placeholder="Telephone e.g: 0123456789" id="telephone" pattern="0[1-9]{3}[0-9]{6}"required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
                     </article>
-                    <aside class="col-12 col-md-3 order-3 order-md-3 p-2" id=events>
-                        <h2 class="text-center">Upcoming events</h2>
-                    </aside>
+                    <article class="col-12 col-md-5 mb-3">
+                        <h4>Leave us a comment:</h4>
+                        <form>
+                            <div class="mb-1">
+                                <input class="form-control" type="text" placeholder="Name e.g: John" id="name" required>
+                            </div>
+                            <div class="mb-1">
+                                <input class="form-control" type="email" placeholder="Email e.g: johndoe@mail.com" id="email" required>
+                            </div>
+                            <div class="mb-1">
+                                <input class="form-control" type="tel" placeholder="Telephone e.g: 0123456789" id="telephone" pattern="0[1-9]{3}[0-9]{6}">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </article>
                 </div>
             </section>
         </main>

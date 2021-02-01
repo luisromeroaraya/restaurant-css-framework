@@ -38,7 +38,7 @@
 
         <main class="mask"> 
             <section id=jumbotron>
-                <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselBanner" class="carousel slide carousel-fade shadow" data-bs-ride="carousel">
                     <!--INDICATORS-->
                     <ul class="carousel-indicators">
                         <li data-bs-target="#carouselBanner" data-bs-slide-to="0"></li>
@@ -103,108 +103,54 @@
             </section>
 
             <section class="container text-dark mt-2" id=middle>
-                <div class="row p-2">
-                    <aside class="col-12 col-md-4 order-2 order-md-1" id=events>
-                        <h2>Upcoming events</h2>
-                        <br>
-                        <div class="row">
-                            <div class="col-2">
-                                <h4><span class="badge bg-success">01</span></h4>
-                                <h4>MAR</h4>
-                            </div>
-                            <div class="col-10">
-                                <h5 class="text-uppercase"><strong>Opening (Brussels)</strong></h5>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="far fa-calendar" aria-hidden="true"></i> Monday</li>
-                                    <li class="list-inline-item"><i class="far fa-clock" aria-hidden="true"></i> 11:00 AM - 12:00 PM</li>
-                                    <li class="list-inline-item"><i class="fas fa-location-arrow" aria-hidden="true"></i> Empanadas Brussels</li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores debitis, laudantium quos dignissimos odit dolorum nam amet.
-                                <br><a href="#brussels">Read more...</a></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <h4><span class="badge bg-success">01</span></h4>
-                                <h4>MAR</h4>
-                            </div>
-                            <div class="col-10">
-                                <h5 class="text-uppercase"><strong>Opening (Antwerp)</strong></h5>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="far fa-calendar" aria-hidden="true"></i> Monday</li>
-                                    <li class="list-inline-item"><i class="far fa-clock" aria-hidden="true"></i> 11:00 AM - 12:00 PM</li>
-                                    <li class="list-inline-item"><i class="fas fa-location-arrow" aria-hidden="true"></i> Empanadas Antwerp</li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt, officia eum consequatur sunt perferendis!
-                                <br><a href="#antwerp">Read more...</a></p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-2">
-                                <h4><span class="badge bg-success">01</span></h4>
-                                <h4>MAR</h4>
-                            </div>
-                            <div class="col-10">
-                                <h5 class="text-uppercase"><strong>Opening (Liège)</strong></h5>
-                                <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="far fa-calendar" aria-hidden="true"></i> Monday</li>
-                                    <li class="list-inline-item"><i class="far fa-clock" aria-hidden="true"></i> 11:00 AM - 12:00 PM</li>
-                                    <li class="list-inline-item"><i class="fas fa-location-arrow" aria-hidden="true"></i> Empanadas Liège</li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque quas temporibus nisi quod. Enim, iusto?
-                                <br><a href="#liege">Read more...</a></p>
-                            </div>
-                        </div>
-                    </aside>
-                    <article class="col-12 col-md order-1 order-md-2" id=pictures>
-                        <div class="row">
-                            <h2 class="text-center">Pictures</h2>
-                            <div class="row row-cols-1 row-cols-md-3 g-4">
-                                <div class="col">
-                                  <div class="card h-100">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Picture 10</h5>
-                                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    </div>
-                                  </div>
+                <div class="row p-2 d-flex justify-content-center">
+                    <article class="col-12 col-md-10" id=pictures>
+                        <h2 class="text-center">Pictures</h2>
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Picture 10</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
-                                <div class="col">
-                                  <div class="card h-100">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Picture 11</h5>
-                                      <p class="card-text">This is a short card.</p>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col">
-                                  <div class="card h-100">
-                                    <img src="..." class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Picture 12</h5>
-                                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                                    </div>
-                                  </div>
                                 </div>
                             </div>
-                            <nav class="mt-2" aria-label="Pagination">
-                                <ul class="pagination justify-content-center">
-                                    <li class="page-item">
-                                        <a class="page-link" href="pictures3.html">Previous</a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="pictures.html">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="pictures2.html">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="pictures3.html">3</a></li>
-                                    <li class="page-item active" aria-current="page">
-                                        <span class="page-link">4</span>
-                                    </li>
-                                    <li class="page-item disabled">
-                                        <span class="page-link">Next</span>
-                                    </li>
-                                </ul>
-                            </nav>
+                            <div class="col">
+                                <div class="card h-100">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Picture 11</h5>
+                                    <p class="card-text">This is a short card.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Picture 12</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                </div>
+                                </div>
+                            </div>
                         </div>
+                        <nav class="mt-2" aria-label="Pagination">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item">
+                                    <a class="page-link" href="pictures3.html">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="pictures.html">1</a></li>
+                                <li class="page-item"><a class="page-link" href="pictures2.html">2</a></li>
+                                <li class="page-item"><a class="page-link" href="pictures3.html">3</a></li>
+                                <li class="page-item active" aria-current="page">
+                                    <span class="page-link">4</span>
+                                </li>
+                                <li class="page-item disabled">
+                                    <span class="page-link">Next</span>
+                                </li>
+                            </ul>
+                        </nav>
                     </article>
                 </div>
             </section>
