@@ -13,7 +13,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
         <link rel="stylesheet" href="style.css" />
-
+        
     </head>
 
     <body class="container bg-image">
@@ -28,8 +28,8 @@
                     <div class="navbar-nav">
                         <a class="nav-item nav-link m-auto" href="index.html">Welcome</a>
                         <a class="nav-item nav-link m-auto" href="menu.html">Menu</a>
-                        <a class="nav-item nav-link m-auto" href="pictures.html">Pictures</a>
-                        <a class="nav-item nav-link m-auto active" aria-current="page" href="restaurants.html">Restaurants</a>
+                        <a class="nav-item nav-link m-auto active" aria-current="page" href="pictures.html">Pictures</a>
+                        <a class="nav-item nav-link m-auto" href="restaurants.html">Restaurants</a>
                         <a class="nav-item nav-link m-auto" href="contact.html">Contact</a>
                     </div>
                 </div>
@@ -102,74 +102,110 @@
                 </div>
             </section>
 
-            <section class="container" id=restaurants>
-                <div class="row p-2 text-dark">
-                    <div class="col-12 col-md p-2">
-                        <h2 class="text-center">Restaurants</h2>
-                        <div class="row p-2">
-                            <div class="col-12 col-md">
-                                <strong>Info</strong>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corrupti, sed reprehenderit omnis odit asperiores consectetur voluptates similique animi beatae obcaecati perspiciatis autem deleniti. Quam porro nobis fuga ipsum sapiente!</p>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta ab facere ducimus ad tempora, corrupti cum saepe. Aliquid, odit voluptatibus eos harum quasi error molestiae et sunt cum sit impedit.</p>
+            <section class="container text-dark mt-2" id=middle>
+                <div class="row p-2">
+                    <aside class="col-12 col-md-4 order-2 order-md-1" id=events>
+                        <h2>Upcoming events</h2>
+                        <br>
+                        <div class="row">
+                            <div class="col-2">
+                                <h4><span class="badge bg-success">01</span></h4>
+                                <h4>MAR</h4>
                             </div>
-                            <div class="col-12 col-md text-center">
-                                <strong>Opening Hours</strong>
-                                <p>Monday: 11:00 - 23:00<br>
-                                   Tuesday: 11:00 - 23:00<br>
-                                   Wednesday: 11:00 - 23:00<br>
-                                   Thursday: 11:00 - 23:00<br>
-                                   Friday: 11:00 - 01:00<br>
-                                   Saturday: 11:00 - 01:00<br>
-                                   Sunday: 11:00 - 23:00</p>
-                            </div>
-                        </div>
-                        <div class="row p-2">
-                            <h4>Brussels</h4>
-                            <div class="col-12 col-md-4">
-                                <img src="images/restaurant-brussels-md.jpg" width="100%" alt="Restaurant Brussels" copyright="cc-by-sa Andrzej Otrębski https://commons.wikimedia.org/w/index.php?curid=46622445">
-                            </div>
-                            <div class="col-12 col-md-2">
-                                <p>Empanadas Brussels<br>
-                                    Rue Brussels 1234<br>
-                                    1000, Brussels<br>
-                                    +32 2 123 456</p>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.2255533575753!2d4.354907715954316!3d50.845507366700545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c47fcc1d13b5%3A0x40b1a1704a249cfa!2sEstaci%C3%B3n%20Central%20de%20Bruselas!5e0!3m2!1ses!2sbe!4v1611929108287!5m2!1ses!2sbe" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="yes" aria-hidden="false" tabindex="0"></iframe>
+                            <div class="col-10">
+                                <h5 class="text-uppercase"><strong>Opening (Brussels)</strong></h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="far fa-calendar" aria-hidden="true"></i> Monday</li>
+                                    <li class="list-inline-item"><i class="far fa-clock" aria-hidden="true"></i> 11:00 AM - 12:00 PM</li>
+                                    <li class="list-inline-item"><i class="fas fa-location-arrow" aria-hidden="true"></i> Empanadas Brussels</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores debitis, laudantium quos dignissimos odit dolorum nam amet.
+                                <br><a href="#brussels">Read more...</a></p>
                             </div>
                         </div>
-                        <div class="row p-2">
-                            <h4>Antwerp</h4>
-                            <div class="col-12 col-md-4">
-                                <img src="images/restaurant-antwerp-md.jpg" width="100%" alt="Restaurant Antwerp" copyright="cc-by-sa Jahoe https://commons.wikimedia.org/w/index.php?curid=19985841">
+                        <div class="row">
+                            <div class="col-2">
+                                <h4><span class="badge bg-success">01</span></h4>
+                                <h4>MAR</h4>
                             </div>
-                            <div class="col-12 col-md-2">
-                                <p>Empanadas Antwerp<br>
-                                    Rue Antwerp 1234<br>
-                                    2000, Antwerp<br>
-                                    +32 3 123 456</p>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.141334387207!2d4.418615133160789!3d51.21647200468818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3f703e7404c69%3A0x270b07bbe1f68aa6!2sEstaci%C3%B3n%20de%20Antwerpen%E2%80%94Centraal!5e0!3m2!1ses!2sbe!4v1611928244919!5m2!1ses!2sbe" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="yes" aria-hidden="false" tabindex="0"></iframe>
-                            </div>
-                        </div>
-                        <div class="row p-2">
-                            <h4>Liège</h4>
-                            <div class="col-12 col-md-4">
-                                <img src="images/restaurant-liege-md.jpg" width="100%" alt="Restaurant Liège" copyright="cc-by-sa 16 Miles of String - https://www.flickr.com/photos/sixteen-miles/4305809704/, https://commons.wikimedia.org/w/index.php?curid=50165940">
-                            </div>
-                            <div class="col-12 col-md-2">
-                                <p>Empanadas Liège<br>
-                                    Rue Liège 1234</br>
-                                    4000, Liège<br>
-                                    +32 4 123 456</p>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.144259346104!2d5.564519415948505!3d50.62443688269353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0f9f755a965ef%3A0xfa3cd9267de72abc!2zRXN0YWNpw7NuIGRlIExpw6hnZeKAlEd1aWxsZW1pbnM!5e0!3m2!1ses!2sbe!4v1611929222099!5m2!1ses!2sbe" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="yes" aria-hidden="false" tabindex="0"></iframe>
+                            <div class="col-10">
+                                <h5 class="text-uppercase"><strong>Opening (Antwerp)</strong></h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="far fa-calendar" aria-hidden="true"></i> Monday</li>
+                                    <li class="list-inline-item"><i class="far fa-clock" aria-hidden="true"></i> 11:00 AM - 12:00 PM</li>
+                                    <li class="list-inline-item"><i class="fas fa-location-arrow" aria-hidden="true"></i> Empanadas Antwerp</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt, officia eum consequatur sunt perferendis!
+                                <br><a href="#antwerp">Read more...</a></p>
                             </div>
                         </div>
-
-                    </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <h4><span class="badge bg-success">01</span></h4>
+                                <h4>MAR</h4>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="text-uppercase"><strong>Opening (Liège)</strong></h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="far fa-calendar" aria-hidden="true"></i> Monday</li>
+                                    <li class="list-inline-item"><i class="far fa-clock" aria-hidden="true"></i> 11:00 AM - 12:00 PM</li>
+                                    <li class="list-inline-item"><i class="fas fa-location-arrow" aria-hidden="true"></i> Empanadas Liège</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque quas temporibus nisi quod. Enim, iusto?
+                                <br><a href="#liege">Read more...</a></p>
+                            </div>
+                        </div>
+                    </aside>
+                    <article class="col-12 col-md order-1 order-md-2" id=pictures>
+                        <div class="row">
+                            <h2 class="text-center">Pictures</h2>
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col">
+                                  <div class="card h-100">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Picture 10</h5>
+                                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="card h-100">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Picture 11</h5>
+                                      <p class="card-text">This is a short card.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="card h-100">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Picture 12</h5>
+                                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                            <nav class="mt-2" aria-label="Pagination">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a class="page-link" href="pictures3.html">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="pictures.html">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="pictures2.html">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="pictures3.html">3</a></li>
+                                    <li class="page-item active" aria-current="page">
+                                        <span class="page-link">4</span>
+                                    </li>
+                                    <li class="page-item disabled">
+                                        <span class="page-link">Next</span>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </article>
                 </div>
             </section>
         </main>

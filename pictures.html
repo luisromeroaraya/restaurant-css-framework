@@ -37,51 +37,56 @@
         </header>
 
         <main class="mask"> 
-            <section id=banner>
+            <section id=jumbotron>
                 <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <!--INDICATORS-->
                     <ul class="carousel-indicators">
-                        <li data-bs-target="#carouselBanner" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselBanner" data-bs-slide-to="0"></li>
                         <li data-bs-target="#carouselBanner" data-bs-slide-to="1"></li>
                         <li data-bs-target="#carouselBanner" data-bs-slide-to="2"></li>
-                        <li data-bs-target="#carouselBanner" data-bs-slide-to="3"></li>
+                        <li data-bs-target="#carouselBanner" data-bs-slide-to="3" class="active"></li>
                         <li data-bs-target="#carouselBanner" data-bs-slide-to="4"></li>
                     </ul>
                     <!-- SLIDESHOW -->
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item">
                             <img class="img-fluid w-100" src="images/empanada_tucumana_argentina-md.jpg" alt="Empanada Tucumana Argentina"/>
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Argentina</h2>
+                                <h2 class="display-3">Argentina</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a class="btn btn-light btn-md" href="index.html#argentina" role="button">Learn more »</a>
                               </div>
                         </div>
                         <div class="carousel-item">
                             <img class="img-fluid w-100" src="images/empanada_saltena_bolivia-md.jpg" alt="Empanada Saltena Bolivia" />
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Bolivia</h2>
+                                <h2 class="display-3">Bolivia</h2>
                                 <p>Lorem ipsum quidem fuga numquam iste aliquid.</p>
+                                <a class="btn btn-light btn-md" href="index.html#bolivia" role="button">Learn more »</a>
                               </div>
                         </div>
                         <div class="carousel-item">
                             <img class="img-fluid w-100" src="images/empanada_pastel_brasil-md.jpg" alt="Empanada Pastel Brasil" />
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Brasil</h2>
+                                <h2 class="display-3">Brasil</h2>
                                 <p>Lorem ipsum inventore ratione architecto at quis a, iusto qui.</p>
+                                <a class="btn btn-light btn-md" href="index.html#brasil" role="button">Learn more »</a>
                               </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item active">
                             <img class="img-fluid w-100" src="images/empanada_pabelloncriollo_venezuela-md.jpg" alt="Empanada Pabellon Criollo Venezuela" />
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Venezuela</h2>
+                                <h2 class="display-3">Venezuela</h2>
                                 <p>Lorem ipsum quae repudiandae ex magni officiis.</p>
+                                <a class="btn btn-light btn-md" href="index.html#venezuela" role="button">Learn more »</a>
                               </div>
                         </div>
                         <div class="carousel-item">
                             <img class="img-fluid w-100" src="images/empanada_pino_chile-md.jpg" alt="Empanada Pino Chile" />
                             <div class="carousel-caption d-none d-md-block">
-                                <h2>Chile</h2>
+                                <h2 class="display-3">Chile</h2>
                                 <p>Lorem ipsum quae repudiandae ex magni officiis.</p>
+                                <a class="btn btn-light btn-md" href="index.html#chile" role="button">Learn more »</a>
                               </div>
                         </div>
                     </div>
@@ -97,12 +102,61 @@
                 </div>
             </section>
 
-            <section class="container" id=middle>
-                <div class="row text-dark">
-                    <aside class="col-12 col-md-3 order-2 order-md-1 p-2" id=news>
-                        <h2 class="text-center">News</h2>
+            <section class="container text-dark mt-2" id=middle>
+                <div class="row p-2">
+                    <aside class="col-12 col-md-4 order-2 order-md-1" id=events>
+                        <h2>Upcoming events</h2>
+                        <br>
+                        <div class="row">
+                            <div class="col-2">
+                                <h4><span class="badge bg-success">01</span></h4>
+                                <h4>MAR</h4>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="text-uppercase"><strong>Opening (Brussels)</strong></h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="far fa-calendar" aria-hidden="true"></i> Monday</li>
+                                    <li class="list-inline-item"><i class="far fa-clock" aria-hidden="true"></i> 11:00 AM - 12:00 PM</li>
+                                    <li class="list-inline-item"><i class="fas fa-location-arrow" aria-hidden="true"></i> Empanadas Brussels</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores debitis, laudantium quos dignissimos odit dolorum nam amet.
+                                <br><a href="#brussels">Read more...</a></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <h4><span class="badge bg-success">01</span></h4>
+                                <h4>MAR</h4>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="text-uppercase"><strong>Opening (Antwerp)</strong></h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="far fa-calendar" aria-hidden="true"></i> Monday</li>
+                                    <li class="list-inline-item"><i class="far fa-clock" aria-hidden="true"></i> 11:00 AM - 12:00 PM</li>
+                                    <li class="list-inline-item"><i class="fas fa-location-arrow" aria-hidden="true"></i> Empanadas Antwerp</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum incidunt, officia eum consequatur sunt perferendis!
+                                <br><a href="#antwerp">Read more...</a></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <h4><span class="badge bg-success">01</span></h4>
+                                <h4>MAR</h4>
+                            </div>
+                            <div class="col-10">
+                                <h5 class="text-uppercase"><strong>Opening (Liège)</strong></h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="far fa-calendar" aria-hidden="true"></i> Monday</li>
+                                    <li class="list-inline-item"><i class="far fa-clock" aria-hidden="true"></i> 11:00 AM - 12:00 PM</li>
+                                    <li class="list-inline-item"><i class="fas fa-location-arrow" aria-hidden="true"></i> Empanadas Liège</li>
+                                </ul>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque quas temporibus nisi quod. Enim, iusto?
+                                <br><a href="#liege">Read more...</a></p>
+                            </div>
+                        </div>
                     </aside>
-                    <article class="col-12 col-md order-1 order-md-2 p-2" id=aboutus>
+                    <article class="col-12 col-md order-1 order-md-2" id=pictures>
                         <div class="row">
                             <h2 class="text-center">Pictures</h2>
                             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -110,7 +164,7 @@
                                   <div class="card h-100">
                                     <img src="..." class="card-img-top" alt="...">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
+                                      <h5 class="card-title">Picture 1</h5>
                                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     </div>
                                   </div>
@@ -119,7 +173,7 @@
                                   <div class="card h-100">
                                     <img src="..." class="card-img-top" alt="...">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
+                                      <h5 class="card-title">Picture 2</h5>
                                       <p class="card-text">This is a short card.</p>
                                     </div>
                                   </div>
@@ -128,7 +182,7 @@
                                   <div class="card h-100">
                                     <img src="..." class="card-img-top" alt="...">
                                     <div class="card-body">
-                                      <h5 class="card-title">Card title</h5>
+                                      <h5 class="card-title">Picture 3</h5>
                                       <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                   </div>
@@ -136,24 +190,22 @@
                             </div>
                             <nav class="mt-2" aria-label="Pagination">
                                 <ul class="pagination justify-content-center">
-                                  <li class="page-item disabled">
-                                    <span class="page-link">Previous</span>
-                                  </li>
-                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                  <li class="page-item active" aria-current="page">
-                                    <span class="page-link">2</span>
-                                  </li>
-                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                  <li class="page-item">
-                                    <a class="page-link" href="#">Next</a>
-                                  </li>
+                                    <li class="page-item disabled">
+                                        <span class="page-link">Previous</span>
+                                    </li>
+                                    <li class="page-item active" aria-current="page">
+                                        <span class="page-link">1</span>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="pictures2.html">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="pictures3.html">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="pictures4.html">4</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="pictures2.html">Next</a>
+                                    </li>
                                 </ul>
-                              </nav>
+                            </nav>
                         </div>
                     </article>
-                    <aside class="col-12 col-md-3 order-3 order-md-3 p-2" id=events>
-                        <h2 class="text-center">Upcoming events</h2>
-                    </aside>
                 </div>
             </section>
         </main>
