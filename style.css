@@ -1,6 +1,7 @@
 html {
     background: black;
 }
+
 body {
     background: url(images/background_inca.svg);
     background-repeat: repeat;
@@ -17,6 +18,20 @@ main {
     main {
       margin-top: 106px;
       margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    main {
+      margin-top: 106px;
+      margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    main {
+      margin-top: 106px;
+      margin-bottom: 112px;
     }
 }
 
